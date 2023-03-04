@@ -71,21 +71,21 @@ for cntr in range(1,15):
     результаты одновременно. Допустим, нам нужно сделать это три раза для трёх наборов <br>
     чисел. Тогда наш пример будет выглядеть как код ниже.<br></p>
 
-<pre>#silly example
+<pre><code>#silly example
 print '%d + %d = %d ' % (1,2,1+2)
 print '%d * %d = %d ' % (1,2,1*2)
-print '%d - %d = %d ' % (1,2,1-2)</pre>
+print '%d - %d = %d ' % (1,2,1-2)</code></pre>
 
-<pre>print '\n'
+<pre><code>print '\n'
 print '%d + %d = %d ' % (1,4,1+4)
 print '%d * %d = %d ' % (1,4,1*4)
-print '%d - %d = %d ' % (1,4,1-4)</pre>
+print '%d - %d = %d ' % (1,4,1-4)</code></pre>
         
-<pre>print '\n'
+<pre><code>print '\n'
 print '%d + %d = %d ' % (10,5,10+5)
 print '%d * %d = %d ' % (10,5,10*5)
 print '%d - %d = %d ' % (10,5,10-5)
-print '\n'</pre>
+print '\n'</code></pre>
 
     <p>Здесь нужно не только набрать много текста, но и непременно возникнут ошибки как при <br>
         написании, так и при внесении изменений. Вместо этого мы создадим функцию, которую <br>
@@ -96,7 +96,7 @@ print '\n'</pre>
         необходимо завершить двоеточием. Код функции набирается с отступом. Наш <br>
         улучшенный простой пример (<u>№2</u>) показан ниже. <br></p>
 
-<pre>#silly example 2...still silly, but better
+<pre><code>#silly example 2...still silly, but better
 def DoTwo(num1,num2):
         print '%d + %d = %d ' % (num1,num2,num1+num2)
         print '%d * %d = %d ' % (num1,num2,num1*num2)
@@ -104,7 +104,7 @@ def DoTwo(num1,num2):
         print '\n'
 DoTwo(1,2)
 DoTwo(1,4)
-DoTwo(10,5)</pre>
+DoTwo(10,5)</code></pre>
 
     <p>Как видите, здесь написано меньше кода — 8 строк вместо 12. Если нам нужно будет что- <br> 
         либо поменять в функции, мы сможем сделать это, не создавая проблем для нашей <br>
