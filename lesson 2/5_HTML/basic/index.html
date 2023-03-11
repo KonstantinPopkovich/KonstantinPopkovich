@@ -19,6 +19,7 @@
                     <label><input type="radio" name="radio" value="на сайте">на сайте
                     <input type="radio" name="radio" value="в google">в google</label>
                 </fieldset>
+                </form>
                 </th>
                 
                 <th>
@@ -31,6 +32,7 @@
                     <input type="radio" name="radio" value="в google">в google</label><br>
                     <small>*-обязательное поле</small>
                 </fieldset>
+                </form>
                 </th>
                 </tr>   
                 
@@ -47,6 +49,7 @@
                     <input type="submit" value="Войти"><br>
                     <small>*-обязательное поле</small>
                 </fieldset>
+                </form>
                 </th>
 
                 <th>
@@ -60,6 +63,7 @@
                     <input type="submit" value="Отправить"><br>
                     <input type="hidden" name="date_voite" value="2013.12.31">
                 </fieldset>
+                </form>
                 </th>
                 </tr>
          
@@ -74,6 +78,7 @@
                     <input type="submit" value="Отправить"><br>
                     <small>*-обязательное поле</small>
                 </fieldset>
+                </form>
                 </th>
 
                 <th>
@@ -85,7 +90,7 @@
                     <option value="1">Минск</option>
                     <option value="2">Гродно</option>
                 </select> 
-                <select name="list_2" id="list_2" multiple="multiple" multiple size="8">
+                <select name="list_2[]" multiple size="8">
                     <optgroup label="Города РБ">
                         <option value="1">Брест</option>
                         <option value="2">Минск</option>
@@ -98,7 +103,8 @@
                         </optgroup>
                 </select>
                 <input type="submit" value="Ok">
-                </fieldset>          
+                </fieldset> 
+                </form>         
                 </th>
                 </tr>
 
@@ -113,7 +119,7 @@
                 <input type="text" name="search_3">
                 <input type="submit" value="загрузить">
                 </fieldset>
-
+                </form>
                 </th>
             
                 <th>
@@ -126,10 +132,9 @@
                 <input type="text" placeholder="+375-29-1234567" name="number" pattern="^(\+375|80)(29|25|44|33)(\d{3})(\d{2})(\d{2})$">
                 <input type="submit" value="проверить">
                 </fieldset>
+                </form>
                 </th> 
             </tr>
-    </form>
-
-    
+ 
 </body>
 </html>
